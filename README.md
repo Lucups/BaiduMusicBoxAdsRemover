@@ -1,7 +1,7 @@
-BaiduMusicBoxAdsRemover(Chrome Plugin)
+BaiduMusicBoxAdsRemover
 =======================
 
-  BaiduMusicBoxAdsRemover
+  BaiduMusicBoxAdsRemover (Chrome Plugin)
   百度音乐盒去广告 Chrome 插件
   
 ### Install
