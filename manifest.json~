@@ -1,0 +1,21 @@
+{
+  "name": "百度音乐盒去广告插件",
+  "version": "1.0",
+  "description": "去除百度音乐盒广告 更新日期：2013-7-29",
+  "icons" : {            
+    "48": "icon48.png"
+    },
+  "content_scripts": [
+    {
+      "matches": ["http://play.baidu.com/*"],
+      "js": ["jquery.js","rmad.js"],
+      "all_frames":true
+    }
+  ],
+  "permissions": [
+    "tabs",
+    "contentSettings",
+    "http://play.baidu.com/*"
+  ],
+  "manifest_version": 2
+}  
